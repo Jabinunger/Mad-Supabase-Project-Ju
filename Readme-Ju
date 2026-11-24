@@ -1,0 +1,9 @@
+# Supabase Application
+
+## Project Description
+
+This project is a mobile application developed using **React Native and Expo**, with **Supabase** providing backend authentication and user management.
+
+This application was created with the goal of allowing users to create an account, sign in using their email address and password, and Ensure that secure pages locked behind sign in remain so. It uses Supabase Authentication to manage user accounts and sessions, ensuring that only users that are authenticated can access protected screens while unauthenticated users are redirected to the sign-in page.
+
+The application also incorporates form validation using **React Hook Form** and **Zod** to ensure that users provide only valid information when registering or signing in. Ensuring that incorrect info such as fake email addresses cannot plainly be used to access it.
